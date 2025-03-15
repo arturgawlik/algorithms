@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert";
-import { selectionSort } from "./selection-sort.ts";
+import { selectionSort } from "../selection-sort.ts";
 
 test.describe("Selection Sort", () => {
   test.it("should sort desc", () => {

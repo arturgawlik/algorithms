@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert";
-import { binarySearch } from "./binary-search.ts";
+import { binarySearch } from "../binary-search.ts";
 
 const testDataSet = [
   {

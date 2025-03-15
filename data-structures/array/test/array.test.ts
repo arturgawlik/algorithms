@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert";
-import { Array } from "./array.ts";
+import { Array } from "../array.ts";
 
 test.describe("Array", () => {
   test.it("should allow set and get item", () => {

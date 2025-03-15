@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert";
-import { List } from "./list.ts";
+import { List } from "../list.ts";
 
 test.describe("List", () => {
   test.it("should allow set and get item", () => {

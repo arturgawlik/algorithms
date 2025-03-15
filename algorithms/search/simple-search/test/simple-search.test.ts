@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert";
-import { simpleSearch } from "./simple-search.ts";
+import { simpleSearch } from "../simple-search.ts";
 
 const testDataSet = [
   {

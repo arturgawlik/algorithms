@@ -4,7 +4,7 @@ export function selectionSort<T>(
 ) {
   const sortedArray = [];
 
-  for (let index = 0; index < array.length; index++) {
+  while (array.length) {
     let candidateIndex = 0;
     for (let index = 1; index < array.length; index++) {
       if (compareCb(array[index], array[candidateIndex])) {
@@ -13,6 +13,7 @@ export function selectionSort<T>(
     }
 
     sortedArray.push(array[candidateIndex]);
+    array.splice(candidateIndex, 1);
   }
 
   return sortedArray;
