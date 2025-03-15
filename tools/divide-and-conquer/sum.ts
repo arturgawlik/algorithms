@@ -1,8 +1,9 @@
 export function sum(arr: number[]) {
-  if (arr.length) {
-    const [next, ...rest] = arr;
-    return next + sum(rest);
-  } else {
+  // base case
+  if (!arr.length) {
     return 0;
   }
+  // recursive case
+  const [next, ...rest] = arr;
+  return next + sum(rest);
 }
