@@ -1,3 +1,6 @@
+/**
+ * Exercise 4.1
+ */
 export function sum(arr: number[]) {
   // base case
   if (!arr.length) {

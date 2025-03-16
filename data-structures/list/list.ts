@@ -43,7 +43,11 @@ export class ListItem {
     this.#nextListItem = nextListItem;
   }
 
-  getNext(): ListItem {
+  getNext() {
     return this.#nextListItem;
+  }
+
+  hasNext() {
+    return !!this.getNext();
   }
 }
