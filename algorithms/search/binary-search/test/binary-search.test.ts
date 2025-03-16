@@ -1,4 +1,4 @@
 import { binarySearch } from "../binary-search.ts";
-import { generateTestForImpl } from "../../../../common-test-cases/binary-search.test.ts";
+import { generateBinarySearchTestForImpl } from "../../../../common-test-cases/binary-search.ts";
 
-generateTestForImpl("Binary Search", binarySearch);
+generateBinarySearchTestForImpl("Binary Search", binarySearch);

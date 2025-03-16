@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert";
 
-export function generateTestForImpl(
+export function generateBinarySearchTestForImpl(
   testSuiteName: string,
   binarySearchImpl: (
     sortedArray: number[],
